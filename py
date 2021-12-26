@@ -1,6 +1,6 @@
 print("Welcome to the tip calculator.")
 
-bill = input("What in your bill ammount? ")
+bill = input("What is your total bill? $")
 tip = input("What percent tip would you like to give? ")
 split = input("How many people are splitting the bill? ")
 
