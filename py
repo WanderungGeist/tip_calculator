@@ -8,8 +8,12 @@ float_bill = float(bill)
 int_tip = ((int(tip)) / 100) * float_bill
 int_split = int(split)
 
-total = (float_bill + int_tip) / 6
+total = (float_bill + int_tip)
 
-message = f"Each person should pay ${total:.2f}"
+total_per = (float_bill + int_tip) / 6
 
-print(message)
+message1 = f"The total bill is ${total:.2f}"
+message2 = f"Each person should pay ${total_per:.2f}"
+
+print(message1)
+print(message2)
